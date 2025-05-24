@@ -7,7 +7,7 @@ resource "random_id" "suffix" {
   byte_length = 2
 }
 
-# resource group 
+# Groupe de ressources
 resource "azurerm_resource_group" "rg" {
   name     = format("%s-%s-%s-%s", title(var.env), title(var.host), lower(var.suffix), random_id.suffix.hex)
   location = var.location

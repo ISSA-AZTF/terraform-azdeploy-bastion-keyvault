@@ -6,4 +6,3 @@ Azure Bastion :
 
 Est conçu et configuré pour résister aux attaques.
 Fournit une connectivité RDP et SSH à vos applications Azure derrière le service Bastion.
-Le tableau suivant décrit les fonctionnalités disponibles après le déploiement d’Azure Bastion.

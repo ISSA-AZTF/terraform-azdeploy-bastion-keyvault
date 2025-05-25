@@ -1,8 +1,10 @@
 # Déploiement Azure Bastion + VM avec Terraform
 ## Qu'est-ce qu'Azure Bastion ?
-Azure Bastion est une plateforme en tant que service (PaaS) entièrement managée par Microsoft. Elle permet de fournir un accès sécurisé, sans exposition de ports publics (RDP ou SSH) à vos machines virtuelles Azure, directement depuis le portail Azure ou via un tunnel local sécurisé. Cela élimine le besoin d’IP publiques sur les VMs et renforce significativement la posture de sécurité réseau.
+Azure Bastion est un service PaaS entièrement managé qui permet un accès sécurisé et privé à vos machines virtuelles Azure, sans exposer d’adresse IP publique ni ouvrir les ports RDP/SSH.
 
-Azure Bastion :
+Il remplace l’usage traditionnel d’une Jump Box — une machine intermédiaire avec un système d’exploitation serveur utilisée pour accéder au réseau interne — en simplifiant la sécurité et la gestion des connexions.
 
-Est conçu et configuré pour résister aux attaques.
-Fournit une connectivité RDP et SSH à vos applications Azure derrière le service Bastion.
+Azure Bastion permet l’accès :
+- via le portail Azure (navigateur web),
+- avec az network bastion tunnel (tunnel SSH/RDP),
+- ou avec az network bastion ssh (connexion SSH directe via CLI).

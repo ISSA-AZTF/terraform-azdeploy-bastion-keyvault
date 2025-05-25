@@ -69,3 +69,6 @@ Pour contourner cela, on peut activer les options suivantes dans le provider **A
 
 ![azurerm_provider](Pictures/Purge_recover_key_vault.png)
 - Seul le propriétaire de la souscription "Owner" ou un utilisateur disposant du rôle RBAC "Key Vault Purge Operator" peut purger un Key Vault.
+
+## Ressources utiles
+- https://learn.microsoft.com/en-us/azure/key-vault/general/soft-delete-overview

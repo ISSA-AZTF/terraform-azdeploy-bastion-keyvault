@@ -35,6 +35,7 @@ Ce schéma a été généré via l'outil **Terraform Visual**, permettant de vis
 
      terraform apply
 4- Se connecter à la VM via Azure Bastion (tunneling)
+
 Ouvrir un tunnel sécurisé vers la VM :
 
           az network bastion tunnel --name Staging-Bastion-Bastion \

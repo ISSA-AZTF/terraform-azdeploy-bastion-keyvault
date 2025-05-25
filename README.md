@@ -28,3 +28,17 @@ Ce schéma a été généré via l'outil **Terraform Visual**, permettant de vis
 1- Initialiser le projet Terraform
 
      terraform init
+2- Vérifier le plan d’exécution
+
+    terraform plan
+3- Déployer l’infrastructure
+
+     terraform apply
+4- Se connecter à la VM via Azure Bastion (tunneling)
+Ouvrir un tunnel sécurisé vers la VM :
+
+          az network bastion tunnel --name Staging-Bastion-Bastion \
+                          --resource-group Staging-Bastion-rg-a991 \
+                          --target-resource-id {vm-id} \
+                          --port 1022 \
+                          --resource-port 22

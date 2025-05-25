@@ -24,6 +24,12 @@ Ce schéma a été généré via l'outil **Terraform Visual**, permettant de vis
     
     On peut aussi générer une paire de clés SSH avec la ressource Terraform **tls_private_key**.
 
+### Génération des clés SSH
+Génération manuelle d'une paire de clés SSH avec :
+
+    ssh-keygen -t rsa -b 4096 -f ./id_rsa
+ > Cela créera deux fichiers : id_rsa (clé privée) et id_rsa.pub (clé publique).   
+
 ## Déploiement & Connexion
 1- Initialiser le projet Terraform
 

@@ -43,3 +43,6 @@ Ouvrir un tunnel sécurisé vers la VM :
         --target-resource-id {vm-id} \
         --port 10022 \
         --resource-port 22
+ Puis, dans un second terminal :
+
+    ssh -i id_rsa testadmin@127.0.0.1 -p 10022      

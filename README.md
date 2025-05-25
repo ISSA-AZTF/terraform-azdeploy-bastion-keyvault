@@ -23,3 +23,7 @@ Ce schéma a été généré via l'outil **Terraform Visual**, permettant de vis
 - Une paire de clés SSH (id_rsa et id_rsa.pub) dans le dossier du projet
     
     On peut aussi générer une paire de clés SSH avec la ressource Terraform **tls_private_key**.
+
+## Déploiement & Connexion
+1- Initialiser le projet Terraform
+     terraform init

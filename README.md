@@ -6,9 +6,9 @@ Il remplace l’usage traditionnel d’une Jump Box — une machine intermédiai
 
 Plusieurs modes de connexion sont pris en charge :
 
-- Interface graphique via le **portail Azure**,
-- Ligne de commande avec **az network bastion ssh**,
-- Tunnel local avec **az network bastion tunnel**.
+- Interface graphique — **portail Azure**,
+- Ligne de commande — **az network bastion ssh**,
+- Tunnel local — **az network bastion tunnel**.
 
 ## Architecture déployée
 Ce step-by-step déploie une infrastructure réseau sécurisée avec Azure Bastion, une VM Linux et un Key Vault pour stocker la clé SSH.

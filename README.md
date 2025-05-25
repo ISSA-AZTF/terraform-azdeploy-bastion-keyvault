@@ -65,7 +65,7 @@ Ouvrir un tunnel sécurisé vers la VM :
 
 ![terraform recreate infra](Pictures/Deleted_key_vault.png)
 
-Pour contourner cela, on peut activer les options suivantes dans le provider Azurerm Terraform :
+Pour contourner cela, on peut activer les options suivantes dans le provider **Azurerm** Terraform :
 
 ![azurerm_provider](Pictures/Purge_recover_key_vault.png)
 - Seul le propriétaire de la souscription "Owner" ou un utilisateur disposant du rôle RBAC "Key Vault Purge Operator" peut purger un Key Vault.

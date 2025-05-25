@@ -5,6 +5,6 @@ Azure Bastion est un service PaaS entièrement managé qui permet un accès séc
 Il remplace l’usage traditionnel d’une Jump Box — une machine intermédiaire avec un système d’exploitation serveur utilisée pour accéder au réseau interne — en simplifiant la sécurité et la gestion des connexions.
 
 Azure Bastion permet l’accès :
-- via le **portail Azure** (navigateur web),
-- avec **az network bastion tunnel** (tunnel SSH/RDP),
-- ou avec **az network bastion ssh** (connexion SSH directe via CLI).
+- depuis le **portail Azure** via l’interface web,,
+- en établissant un tunnel avec **az network bastion tunnel**,
+- ou en ligne de commande directement avec **az network bastion ssh**.

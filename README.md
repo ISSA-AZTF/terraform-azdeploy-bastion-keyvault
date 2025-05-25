@@ -12,6 +12,6 @@ Plusieurs modes de connexion sont pris en charge :
 
 ## Architecture déployée
 Ce step-by-step déploie une infrastructure réseau sécurisée avec Azure Bastion, une VM Linux et un Key Vault pour stocker la clé SSH.
-📷 Aperçu Terraform Visual :
+### 📷 Aperçu Terraform Visual :
 Ce schéma a été généré via l'outil Terraform Visual, permettant de visualiser le graphe des ressources.
-![Terraform plan](Pictures/All_resources.png)
+![Terraform plan](Pictures/Plan_architechture.png)

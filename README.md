@@ -43,7 +43,7 @@ Ouvrir un tunnel sécurisé vers la VM :
         --target-resource-id {vm-id} \
         --port 10022 \
         --resource-port 22
-     Cela ouvre un tunnel local (port 10022) redirigé vers le port 22 de la VM distante via Bastion.
+    Cela ouvre un tunnel local (port 10022) redirigé vers le port 22 de la VM distante via Bastion.
 
  Puis, dans un second terminal :
 

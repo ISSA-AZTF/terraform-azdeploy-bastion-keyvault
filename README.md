@@ -41,7 +41,8 @@ Génération manuelle d'une paire de clés SSH avec :
 
      terraform apply
 
-![terraform apply](Pictures/All_resources.png)    
+![terraform apply](Pictures/All_resources.png)   
+ 
 4- Se connecter à la VM via Azure Bastion (tunneling)
 
 Ouvrir un tunnel sécurisé vers la VM :

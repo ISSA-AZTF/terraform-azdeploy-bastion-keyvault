@@ -58,7 +58,7 @@ Ouvrir un tunnel sécurisé vers la VM :
 
     terraform destroy
 ## Remarques importantes
-- **Azure Key Vault** applique une suppression douce (soft delete) avec protection contre la purge activée par défaut. Cela peut empêcher sa suppression complète.
+- **Azure Key Vault** applique une suppression douce (soft delete) avec protection contre la purge activée par défaut. Cela peut empêcher non seulement la suppression complète du coffre, mais aussi sa recréation avec le même nom.
 
 ![terraform apply](Pictures/Deleted_key_vault.png)
 

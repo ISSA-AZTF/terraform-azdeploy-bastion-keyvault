@@ -16,3 +16,9 @@ Ce step-by-step déploie une infrastructure réseau sécurisée avec Azure Basti
 Ce schéma a été généré via l'outil **Terraform Visual**, permettant de visualiser le graphe des ressources.
 
 ![Terraform plan](Pictures/Plan_architechture.png)
+## Prérequis
+- Terraform ≥ 1.5
+- Azure CLI
+- Subscription Azure valide
+- Une paire de clés SSH (id_rsa et id_rsa.pub) dans le dossier du projet
+     On peut aussi générer une paire de clés SSH avec la ressource Terraform **tls_private_key**.

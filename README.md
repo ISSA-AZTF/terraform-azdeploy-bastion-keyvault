@@ -53,4 +53,16 @@ Ouvrir un tunnel sécurisé vers la VM :
 
  Puis, dans un second terminal :
 
-    ssh -i id_rsa testadmin@127.0.0.1 -p 10022      
+    ssh -i id_rsa testadmin@127.0.0.1 -p 10022  
+## Destruction de l'infrastructure
+
+    terraform destroy
+Remarques importantes
+- **Azure Key Vault** applique une suppression douce (soft delete) avec protection contre la purge activée par défaut. Cela peut empêcher sa suppression complète.
+
+![terraform apply](Pictures/Deleted_key_vault.png)
+
+Pour contourner cela, on peut activer les options suivantes dans le provider Terraform :
+
+![azurerm_provider](Pictures/Purge_recover_key_vault.png)
+- Seul le propriétaire de la souscription "Owner" ou un utilisateur disposant du rôle RBAC "Key Vault Purge Operator" peut purger un Key Vault.

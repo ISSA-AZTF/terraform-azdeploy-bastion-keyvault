@@ -9,3 +9,9 @@ Plusieurs modes de connexion sont pris en charge :
 - Interface graphique via le **portail Azure**,
 - Ligne de commande avec **az network bastion ssh**,
 - Tunnel local avec **az network bastion tunnel**.
+
+## Architecture déployée
+Ce step-by-step déploie une infrastructure réseau sécurisée avec Azure Bastion, une VM Linux et un Key Vault pour stocker la clé SSH.
+📷 Aperçu Terraform Visual :
+Ce schéma a été généré via l'outil Terraform Visual, permettant de visualiser le graphe des ressources.
+![Terraform plan](Pictures/All_resources.png)

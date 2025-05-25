@@ -59,7 +59,7 @@ Ouvrir un tunnel sécurisé vers la VM :
  Puis, dans un second terminal :
 
     ssh -i id_rsa testadmin@127.0.0.1 -p 10022  
-Suivi de session via Bastion
+4- Suivi de session via Bastion
 
 Une fois connecté via le tunnel Bastion, il est possible de vérifier les sessions actives sur la VM avec la commande suivante :    
 

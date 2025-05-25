@@ -72,3 +72,4 @@ Pour contourner cela, on peut activer les options suivantes dans le provider **A
 
 ## Ressources utiles
 - [Azure soft delete documentation](https://learn.microsoft.com/en-us/azure/key-vault/general/soft-delete-overview)
+- [Microsoft learn Bastion](https://learn.microsoft.com/fr-fr/azure/bastion/bastion-overview)

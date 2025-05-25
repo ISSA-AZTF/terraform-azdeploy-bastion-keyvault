@@ -26,4 +26,5 @@ Ce schéma a été généré via l'outil **Terraform Visual**, permettant de vis
 
 ## Déploiement & Connexion
 1- Initialiser le projet Terraform
+
      terraform init

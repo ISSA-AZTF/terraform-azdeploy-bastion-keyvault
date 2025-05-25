@@ -38,8 +38,8 @@ Ce schéma a été généré via l'outil **Terraform Visual**, permettant de vis
 
 Ouvrir un tunnel sécurisé vers la VM :
 
-          az network bastion tunnel --name Staging-Bastion-Bastion \
-                          --resource-group Staging-Bastion-rg-a991 \
-                          --target-resource-id {vm-id} \
-                          --port 1022 \
-                          --resource-port 22
+    az network bastion tunnel --name Staging-Bastion-Bastion \
+        --resource-group Staging-Bastion-rg-a991 \
+        --target-resource-id {vm-id} \
+        --port 1022 \
+        --resource-port 22

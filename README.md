@@ -41,5 +41,5 @@ Ouvrir un tunnel sécurisé vers la VM :
     az network bastion tunnel --name Staging-Bastion-Bastion \
         --resource-group Staging-Bastion-rg-a991 \
         --target-resource-id {vm-id} \
-        --port 1022 \
+        --port 10022 \
         --resource-port 22

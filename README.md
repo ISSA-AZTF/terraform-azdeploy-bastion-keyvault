@@ -40,6 +40,8 @@ Génération manuelle d'une paire de clés SSH avec :
 3- Déployer l’infrastructure
 
      terraform apply
+
+![terraform apply](Pictures/All_resources.png)    
 4- Se connecter à la VM via Azure Bastion (tunneling)
 
 Ouvrir un tunnel sécurisé vers la VM :
@@ -60,7 +62,7 @@ Ouvrir un tunnel sécurisé vers la VM :
 ## Remarques importantes
 - **Azure Key Vault** applique une suppression douce (soft delete) avec protection contre la purge activée par défaut. Cela peut empêcher non seulement la suppression complète du key vault, mais aussi sa recréation avec le même nom.
 
-![terraform apply](Pictures/Deleted_key_vault.png)
+![terraform recreate infra](Pictures/Deleted_key_vault.png)
 
 Pour contourner cela, on peut activer les options suivantes dans le provider Terraform :
 

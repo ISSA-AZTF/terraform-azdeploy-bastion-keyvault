@@ -6,6 +6,6 @@ Il remplace l’usage traditionnel d’une Jump Box — une machine intermédiai
 
 Plusieurs modes de connexion sont pris en charge :
 
-- Interface graphique via le portail Azure,
-- Ligne de commande avec az network bastion ssh,
-- Tunnel local avec az network bastion tunnel.
+- Interface graphique via le **portail Azure**,
+- Ligne de commande avec **az network bastion ssh**,
+- Tunnel local avec **az network bastion tunnel**.

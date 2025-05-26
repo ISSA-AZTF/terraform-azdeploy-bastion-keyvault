@@ -13,7 +13,7 @@ Plusieurs modes de connexion sont pris en charge :
 **Azure Key Vault** permet de protéger les clés de chiffrement et les secrets utilisés par les services et les applications cloud. Key Vault rationalise le processus de gestion de clés et vous permet de garder le contrôle des clés qui accèdent à vos données et les chiffrent
 
 ## Architecture déployée
-Ce step-by-step déploie une infrastructure réseau sécurisée avec Azure Bastion, une VM Linux et un Key Vault pour stocker la clé SSH.
+Ce guide déploie une infrastructure réseau sécurisée avec Azure Bastion, une VM Linux et un Key Vault pour stocker la clé SSH.
 
 Ce schéma a été généré via l'outil **Terraform Visual**, permettant de visualiser le graphe des ressources.
 

@@ -10,7 +10,7 @@ Plusieurs modes de connexion sont pris en charge :
 - Ligne de commande — **az network bastion ssh**,
 - Tunnel local — **az network bastion tunnel**.
 ## Qu'est-ce qu'Azure key vault ?
-**Azure Key Vault** permet de protéger les clés de chiffrement et les secrets utilisés par les services et les applications cloud. Key Vault rationalise le processus de gestion de clés et vous permet de garder le contrôle des clés qui accèdent à vos données et les chiffrent
+**Azure Key Vault** permet de protéger les clés de chiffrement et les secrets utilisés par les services et les applications cloud. Key Vault rationalise le processus de gestion de clés et vous permet de garder le contrôle des clés qui accèdent à vos données et les chiffrent.
 
 ## Architecture déployée
 Ce guide déploie une infrastructure réseau sécurisée avec Azure Bastion, une VM Linux et un Key Vault pour stocker la clé SSH.

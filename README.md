@@ -1,4 +1,4 @@
-# Déploiement Azure Bastion + VM avec Terraform
+# Déploiement Azure Bastion + key vault avec Terraform
 ## Qu'est-ce qu'Azure Bastion ?
 Azure Bastion est un service PaaS entièrement managé qui permet un accès sécurisé et privé à vos machines virtuelles Azure, sans exposer d’adresse IP publique ni ouvrir les ports RDP/SSH.
 
